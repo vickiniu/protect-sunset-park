@@ -1,0 +1,83 @@
+/* Mobile */
+@media (max-width: 600px) {
+  .container {
+    margin: auto;
+  }
+}
+
+/* Desktop */
+@media (min-width: 600px) {
+  .container {
+    margin: auto;
+    width: 600px;
+  }
+}
+
+.container h2,
+.container h3,
+.container p,
+.container label {
+  color: #34495e;
+}
+
+.title {
+  color: #e74c3c;
+}
+
+a {
+  color: #e74c3c;
+}
+
+.button-highlight {
+  width: auto;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #ecf0f1;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #e74c3c;
+  cursor: pointer;
+  padding: 2px 5px;
+  margin-top: 5px;
+  color: #34495e;
+}
+
+.input {
+  margin-top: 5px;
+}
+
+form.nostyle {
+  all: unset;
+}
+
+form label.required:after
+{
+    color: #e74c3c;
+    content: " *";
+}
+
+.form {
+  width: 300px;
+}
+
+.preview {
+  border: 1px solid grey;
+  border-radius: 3px;
+  box-shadow: 2px 2px #e74c3c;
+  padding: 15px;
+  white-space: pre-line;
+}
+
+.send-mail-container {
+  display: flex;
+}
+
+.send-mail {
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.highlight {
+  color: #e74c3c;
+}

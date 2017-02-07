@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Protect Sunset Park</title>
+    <meta
+      name="description"
+      content="Protect Sunset Park — vote NO on rezoning Industry City"
+    />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://cdn.glitch.com/e275bad4-343a-465c-bbe2-f62f00db7883%2Ffavicon.ico?v=1591306658925"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://button.glitch.me/css/glitch.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-171059612-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-171059612-2");
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title">Protect Sunset Park</h1>
+        <h2>
+          Demand that the City Council says NO to Industry City rezoning.
+        </h2>
+      </header>
+
+      <main>
+        <div style="margin-bottom: 20px;">
+          <p>
+            Real estate developers and the lawmakers that bow to them are trying
+            to rezone over
+            <strong>a million square feet</strong>
+            of Industry City without community agreement and support.
+          </p>
+          <p>
+            They want to transform Industry City from the largest working-class
+            industrial waterfront in Brooklyn into luxury hotels, retail stores,
+            and corporate offices — we know this will only hike up rents and
+            cause even more displacement in Sunset Park.
+          </p>
+          <p>
+            <strong class="highlight"
+              >We are calling on the City Council to vote NO on rezoning
+              Industry City.
+            </strong>
+          </p>
+          <p>
+            For more information, resources, and ways to engage, visit
+            <a href="https://www.protectsunsetpark.org/">Protect Sunset Park</a
+            >.
+          </p>
+          <h2>
+            Type in your name, neighborhood, and address to take action.
+          </h2>
+        </div>
+        <div class="form">
+          <form class="nostyle" id="form" onsubmit="return false;">
+            <label class="label" for="name">Name</label>
+            <input class="input" id="name" required />
+            <label class="label" for="neighborhood"
+              >Neighborhood / Borough</label
+            >
+            <input class="input" id="neighborhood" required />
+            <label class="label" for="address">Address</label>
+            <input
+              class="input"
+              id="address"
+              type="text"
+              placeholder=""
+              required
+            />
+          </form>
+          <a onclick="submit()"
+            ><button class="button-highlight">Submit</button></a
+          >
+        </div>
+        <div id="error"></div>
+        <div id="call"></div>
+        <div id="preview"></div>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="client.js"></script>
+    <script
+      src="https://button.glitch.me/button.js"
+      data-style="glitch"
+    ></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-iXbXT8wSEFjZhXIzassPc0gQy00rtsA&libraries=places&callback=initMap"
+      defer
+    ></script>
+  </body>
+</html>
